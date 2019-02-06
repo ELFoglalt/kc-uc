@@ -1,0 +1,32 @@
+{
+    "name": "kerekescreates-uc",
+    "version": "1.0.0",
+    "description": "A simple server serving a \"website is under construction\" page.",
+    "main": "index.ts",
+    "scripts": {
+        "dev": "ts-node -r dotenv/config index.ts",
+        "serve": "node -r ts-node/register/transpile-only -r dotenv/config index.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ELFoglalt/kc-uc.git"
+    },
+    "author": "Máté Kerekes <code@kerekescreates.com>",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/ELFoglalt/kc-uc/issues"
+    },
+    "homepage": "https://github.com/ELFoglalt/kc-uc#readme",
+    "devDependencies": {
+        "ts-node": "^8.0.2",
+        "tslint": "^5.12.1",
+        "typescript": "^3.3.1"
+    },
+    "dependencies": {
+        "@types/dotenv": "^6.1.0",
+        "@types/express": "^4.16.1",
+        "dotenv": "^6.2.0",
+        "express": "^4.16.4",
+        "greenlock-express": "^2.6.7"
+    }
+}
